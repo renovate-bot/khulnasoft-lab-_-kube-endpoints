@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/kube-endpoints
 go 1.20
 
 require (
-	github.com/go-logr/logr v1.4.2
+	github.com/go-logr/logr v1.4.3
 	github.com/khulnasoft-lab/operator-sdk v0.0.0-20240703020850-5af6993245ea
 	github.com/prometheus/client_golang v1.15.1
 	github.com/spf13/cobra v1.6.0
