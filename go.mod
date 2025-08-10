@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/kube-endpoints
 
-go 1.20
+go 1.22
+
+toolchain go1.24.6
 
 require (
 	github.com/go-logr/logr v1.4.2
@@ -15,7 +17,7 @@ require (
 	k8s.io/klog v1.0.0
 	k8s.io/klog/v2 v2.90.1
 	sigs.k8s.io/controller-runtime v0.15.0
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.6.0
 )
 
 require (
@@ -54,6 +56,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
+	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
