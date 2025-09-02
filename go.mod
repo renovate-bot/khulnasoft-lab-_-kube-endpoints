@@ -7,7 +7,7 @@ require (
 	github.com/khulnasoft-lab/operator-sdk v0.0.0-20240703020850-5af6993245ea
 	github.com/prometheus/client_golang v1.15.1
 	github.com/spf13/cobra v1.6.0
-	github.com/spf13/pflag v1.0.5
+	github.com/spf13/pflag v1.0.10
 	k8s.io/api v0.27.2
 	k8s.io/apimachinery v0.27.2
 	k8s.io/client-go v0.27.2
